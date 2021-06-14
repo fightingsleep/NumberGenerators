@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberGenerators", "NumberG
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberGenerators.Tests", "NumberGenerators.Tests\NumberGenerators.Tests.csproj", "{1DF4C210-A6FE-4237-84FC-D08866B4C5DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGenerators.Common", "NumberGenerators.Common\NumberGenerators.Common.csproj", "{BCDFCEE0-5ED9-40BF-A56F-C132BE07E5A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1DF4C210-A6FE-4237-84FC-D08866B4C5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF4C210-A6FE-4237-84FC-D08866B4C5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF4C210-A6FE-4237-84FC-D08866B4C5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDFCEE0-5ED9-40BF-A56F-C132BE07E5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDFCEE0-5ED9-40BF-A56F-C132BE07E5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDFCEE0-5ED9-40BF-A56F-C132BE07E5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDFCEE0-5ED9-40BF-A56F-C132BE07E5A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NumberGenerators.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace NumberGenerators
     /// This class represents a number generator that returns numbers based on
     /// a given distribution of probabilities.
     /// </summary>
-    public class ProbabilisticNumberGenerator
+    public class ProbabilisticNumberGenerator : INumberGenerator
     {
         // Values that may be returned by NextNum()
         private List<int> _permissibleValues;

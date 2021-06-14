@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NumberGenerators
+namespace NumberGenerators.Common
 {
     /// <summary>
     /// This class contains a set of extension methods that are commonly used
